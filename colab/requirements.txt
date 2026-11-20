@@ -1,0 +1,6 @@
+# Use torch/torchvision provided by the Colab runtime.
+timm
+numpy
+pillow
+scipy
+scikit-learn

@@ -1,0 +1,29 @@
+# Deep Learning stack — Glance→Focus ViT (Đề tài 7)
+# Core
+torch
+torchvision
+timm            # ViT-B/16 pretrained backbone
+
+# Numerics / data
+numpy
+pandas
+pillow
+scipy           # McNemar, bootstrap CI, connected components
+
+# Metrics & stats
+scikit-learn    # accuracy/precision/recall/F1/ROC-AUC
+statsmodels     # McNemar test
+
+# Visualization (rollout overlays, confusion matrix, ROC)
+matplotlib
+seaborn
+streamlit
+
+# Experiment utilities
+pyyaml          # config files
+tqdm
+tensorboard
+
+# Notebook (optional, exploration)
+jupyterlab
+ipykernel

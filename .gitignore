@@ -1,0 +1,45 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.Python
+
+# Notebook and tool caches
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local secrets and machine-specific files
+.env
+.env.*
+!.env.example
+**/.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
+
+# Generated logs, reports, and training runs
+*.log
+/results/
+/runs/
+/outputs/
+/logs/
+/lightning_logs/
+/tensorboard/
+
+# Local datasets and large source archives
+/data/
+/data.zip
+
+# Original training checkpoints. Keep the selected deployment checkpoint under
+# streamlit_deploy/checkpoints/; these root-anchored rules do not ignore it.
+/checkpoints/
+
+# Packaging artifacts
+/build/
+/dist/
+*.egg-info/
